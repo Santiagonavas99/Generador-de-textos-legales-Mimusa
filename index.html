@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Generador Legal</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="app">
+    <h1>Generador de textos legales</h1>
+
+    <form id="form">
+      <div class="grid">
+        <div>
+          <label for="brand">Marca comercial</label>
+          <input id="brand" required />
+        </div>
+
+        <div>
+          <label for="legalName">Nombre legal</label>
+          <input id="legalName" required />
+        </div>
+
+        <div>
+          <label for="dni">DNI / NIF</label>
+          <input id="dni" required />
+        </div>
+
+        <div>
+          <label for="address">Dirección completa</label>
+          <input id="address" required />
+        </div>
+
+        <div>
+          <label for="phone">Teléfono</label>
+          <input id="phone" required />
+        </div>
+
+        <div>
+          <label for="email">Email</label>
+          <input id="email" type="email" required />
+        </div>
+      </div>
+
+      <div class="options">
+        <div>
+          <label for="templateSelect">Documento</label>
+          <select id="templateSelect">
+            <option value="aviso_legal">Aviso Legal</option>
+            <option value="cookies">Política de Cookies</option>
+            <option value="accesibilidad">Accesibilidad</option>
+            <option value="privacidad">Política de Privacidad</option>
+          </select>
+        </div>
+
+        <div>
+          <label for="formatSelect">Formato</label>
+          <select id="formatSelect">
+            <option value="text">Texto limpio</option>
+            <option value="html">HTML (negritas)</option>
+          </select>
+        </div>
+      </div>
+
+      <button type="submit">Generar</button>
+    </form>
+
+    <textarea id="output" placeholder="Aquí aparecerá el texto legal completo..."></textarea>
+
+    <div class="row">
+      <button id="copy" type="button">Copiar al portapapeles</button>
+      <span id="status" aria-live="polite"></span>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
