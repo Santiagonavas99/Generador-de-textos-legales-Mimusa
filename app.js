@@ -36,14 +36,14 @@ aviso_legal: (d) => `
 AVISO LEGAL
 
 OBJETO
-El presente aviso legal regula el uso y utilización del sitio web, del que es titular ${d.brand} (en adelante, EL PROPIETARIO DE LA WEB).
+El presente aviso legal regula el uso y utilización del sitio web, del que es titular ${d.brand} (en adelante, ${d.legalName}).
 La navegación por este sitio web le atribuye la condición de USUARIO del mismo y conlleva su aceptación plena y sin reservas de todas y cada una de las condiciones publicadas en este aviso legal, advirtiendo de que dichas condiciones podrán ser modificadas sin notificación previa por parte de ${d.brand}, en cuyo caso se procederá a su publicación y aviso con la máxima antelación posible.
 Por ello es recomendable leer atentamente su contenido en caso de desear acceder y hacer uso de la información y de los servicios ofrecidos desde este sitio web.
 El usuario, además, se obliga a hacer un uso correcto del sitio web de conformidad con las leyes, la buena fe, el orden público, los usos del tráfico y el presente Aviso Legal, y responderá frente a ${d.brand} o frente a terceros, de cualesquiera daños y perjuicios que pudieran causarse como consecuencia del incumplimiento de dicha obligación.
 Cualquier utilización distinta a la autorizada está expresamente prohibida, pudiendo ${d.brand} denegar o retirar el acceso y su uso en cualquier momento.
 
 IDENTIFICACIÓN
-EL PROPIETARIO DE LA WEB, en cumplimiento de la Ley 34/2002, de 11 de julio, de Servicios de la Sociedad de la Información y de Comercio Electrónico, le informa de que:
+EL ${d.legalName}, en cumplimiento de la Ley 34/2002, de 11 de julio, de Servicios de la Sociedad de la Información y de Comercio Electrónico, le informa de que:
 
 Su denominación social es: ${d.legalName}, DNI ${d.dni}, ${d.address}. Teléfono ${d.phone}.
 
